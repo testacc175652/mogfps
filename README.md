@@ -2,6 +2,8 @@
 ---
 A modpack for you to boost your fps! 1.8.9
 
+[DOWNLOAD](https://testacc175652.github.io/mogfps/)
+
 Mods used in the modpack:
 - All Improvements
 - antighost
