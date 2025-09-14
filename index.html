@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MOG-FPS</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(255,255,255,0.5); }
+    50% { box-shadow: 0 0 20px rgba(255,255,255,0.8); }
+  }
+  .glow {
+    animation: pulse-glow 2s infinite;
+  }
+  .download-btn {
+    transition: all 0.3s ease;
+  }
+  .download-btn:hover {
+    transform: scale(1.05);
+  }
+  .multi-shadow {
+    box-shadow:
+      0 0 10px 3px rgba(255,255,255,0.25),
+      0 0 20px 6px rgba(255,255,255,0.15),
+      0 0 30px 9px rgba(255,255,255,0.1);
+  }
+</style>
+</head>
+<body class="bg-black min-h-screen flex items-center justify-center p-4">
+  <div class="text-center">
+    <div class="glow rounded-full p-2 mb-8 inline-block bg-transparent multi-shadow">
+      <img
+        src="https://github.com/testacc175652/mogfps/raw/main/mogfps.png"
+        class="w-40 h-40 rounded-full mx-auto drop-shadow-lg"
+        alt="MOG-FPS"
+        />
+    </div>
+    <h1 class="text-4xl font-mono font-bold mb-6 text-white">MOG-FPS</h1>
+    <a href="https://github.com/testacc175652/mogfps/releases/download/modpack/MOG-FPS.zip" class="download-btn inline-block bg-white text-black font-bold py-3 px-8 rounded border-2 border-white">
+      DOWNLOAD
+    </a>
+  </div>
+</body>
+</html>
