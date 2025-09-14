@@ -21,3 +21,6 @@ Mods used in the modpack:
 - rawinput
 - Titanium_Rewrite
 - velocx-caelo
+
+** E.g fps you could get on a low-end pc:**
+<img width="144" height="19" alt="image" src="https://github.com/user-attachments/assets/22d8c431-0a66-4efa-be32-a60ec6d4ee66" />
